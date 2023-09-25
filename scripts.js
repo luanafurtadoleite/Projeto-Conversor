@@ -9,6 +9,7 @@ function convertValues(){
     const dolarToday = 5.2
     const euroToday = 6.2
     const bitcoinToday = 259.5
+    
 
     if(currencySelect.value == "dolar"){
         currencuValueConverted.innerHTML = new Intl.NumberFormat("en-US", {
